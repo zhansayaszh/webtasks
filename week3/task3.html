@@ -1,0 +1,215 @@
+<html>
+<head>
+<style>
+body {
+    background-image: url("b.png");
+    
+}
+.container header{
+
+}
+.container header nav{
+  display: flex;
+  justify-content: space-between;
+
+  width:100%;
+  
+}
+.container header nav a{
+  padding-left: 55px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.container header nav{
+  
+  background-color: lightgrey;
+}
+nav a{
+     text-decoration: none;
+     color: black;
+     padding-left: 6%;
+     padding-right: 6%;
+}
+
+nav a:hover{
+     color: white;
+     background-color: red;
+}
+/*nav .active{
+     color: white;
+     background-color: red;
+}*/
+
+footer {
+  display: flex;
+  align-items: center;
+  border-style: solid;
+  background-color: black;
+  color:white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 170px;
+  padding-right: 160px;
+  justify-content: flex-end;
+  
+  flex: 1;
+
+  flex-direction: column;
+}
+.container,.main_section{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
+  
+
+}
+.container header .logo_part{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.container header .logo_part .search{
+  padding-left: 70px;
+}
+.main_section{
+  width:550px;
+  height: 450px;
+  display:flex;
+
+  align-items: center;
+  /*margin-left: 130px;*/
+  margin-top:5px;
+  background:white;
+  border:1px;
+}
+.main_section .cards{
+  display:flex;
+  align-items: center;
+  margin-left: 32px;
+  margin-top: 5px;
+  margin-right: 22px;
+
+}
+.main_section div{
+  display: flex;
+  flex-flow:row wrap;
+
+}
+.main_section .cards .card{
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-color: red;
+  border-width: 1px;
+  border-radius: 3px;
+  margin-left: 5px;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+  margin-right: 5px;
+}
+.card{
+    
+     text-align:center;
+}
+.title{
+    color:white;
+     background-color: #1e90ff;
+}
+.card a{
+  text-decoration:none;
+}
+.price{
+      font-weight:bold;
+      padding-left: 50px;
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+  <nav>
+    <a href="#" class='active'>Home</a><a href="#">Contacts</a><a href="#">About us</a><a href="#">Comitee</a>
+  </nav>
+  <div class="logo_part">
+     <img src="200x100.png"/>
+     <div class="search">
+       <input type="text"/>
+       <button>Search</button>
+     </div>
+  </div>
+</header>
+
+<section class="main_section">
+  <div class="cards">
+    <div class="card">
+      <a href="#" class="title">Toyota Avensis</a>
+        <img src="150x150.gif"/>
+      <div class="description">
+      
+      </div>
+      <div class="price">
+        50.000$
+      </div>
+    </div>
+        <div class="card">
+       <a href="#" class="title">Toyota Avensis</a>
+        <img src="150x150.gif"/>
+      <div class="description">
+      
+      </div>
+      <div class="price">
+        50.000$
+      </div>
+    </div>
+        <div class="card">
+      <a href="#" class="title">Toyota Avensis</a>
+        <img src="150x150.gif"/>
+      <div class="description"> 
+      </div>
+      <div class="price">
+        50.000$
+      </div>
+    </div>
+
+    <div class="card">
+      <a href="#" class="title">Toyota Avensis</a>
+        <img src="150x150.gif"/>
+      <div class="description">
+      
+      </div>
+      <div class="price">
+        50.000$
+      </div>
+    </div>
+        <div class="card">
+      <a href="#" class="title">Toyota Avensis</a>
+        <img src="150x150.gif"/>
+      <div class="description">
+      
+      </div>
+      <div class="price">
+        50.000$
+      </div>
+    </div>
+     <div class="card">
+      <a href="#" class="title">Toyota Avensis</a>
+        <img src="150x150.gif"/>
+      <div class="description">
+      
+      </div>
+      <div class="price">
+        50.000$
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  @copy; 2017 Wheels.kz. All cars
+</footer>
+</div>
+
+</html>
